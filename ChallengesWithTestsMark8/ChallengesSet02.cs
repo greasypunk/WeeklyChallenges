@@ -24,7 +24,7 @@ namespace ChallengesWithTestsMark8
 
         public bool IsNumberOdd(int num)
         {
-            return (num % 2 == 1) ? true : false;
+            return (num % 2 != 0) ? true : false;
         }
 
         public double SumOfMinAndMax(IEnumerable<double> numbers)
